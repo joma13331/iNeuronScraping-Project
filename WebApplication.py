@@ -1,6 +1,8 @@
 from flask import request, jsonify
 import logging
 
+from flask_cors import cross_origin
+
 logging.basicConfig(filename="testLog.log", level=logging.INFO)
 
 
@@ -29,6 +31,7 @@ class ScraperWebApplication:
         except Exception as e:
             logging.error(str(e))
 
+    @cross_origin()
     def course_specializations(self):
         """
         This method exposes the details of the specializations available in each category of ineuron courses.
@@ -48,6 +51,7 @@ class ScraperWebApplication:
             logging.error(str(e))
             return jsonify(errors=str(e))
 
+    @cross_origin()
     def course_details_for_category(self):
         """
         This method exposes the complete details of the courses available in each category of ineuron courses based on
