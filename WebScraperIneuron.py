@@ -333,8 +333,7 @@ class WebScraperMongodb:
 
 
 try:
-    connection_client = pymongo.MongoClient("mongodb+srv://Jobin_ineuron:" + urllib.parse.quote(
-        "Rasengan1@mongodb") + "@clusterineuron.xxvwt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    connection_client = # Enter the mongodb Client Statement
     logging.debug("MongoDB client Connection successful")
 
     # Creating the WebScraperMongodb object

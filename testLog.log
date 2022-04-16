@@ -6,3 +6,38 @@ INFO:root:Information from Collection(Database(MongoClient(host=['clusterineuron
 INFO:werkzeug:127.0.0.1 - - [15/Apr/2022 22:24:29] "GET /specializations HTTP/1.1" 200 -
 INFO:root:Information from Collection(Database(MongoClient(host=['clusterineuron-shard-00-00.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-01.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject'), 'CourseInfo') collection in Database(MongoClient(host=['clusterineuron-shard-00-00.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-01.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject') database in MongoDB obtained
 INFO:werkzeug:127.0.0.1 - - [15/Apr/2022 22:24:44] "POST /category HTTP/1.1" 200 -
+INFO:root:Flask app setup completed
+INFO:root:Initialization of 'ScraperWebApplication' object completed
+INFO:root:the api for accessing the ineuron courses information completed
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Information from Collection(Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject'), 'CourseSpecialization') collection in Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject') database in MongoDB obtained
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2022 23:25:28] "GET /specializations HTTP/1.1" 200 -
+INFO:root:Information from Collection(Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject'), 'CourseInfo') collection in Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject') database in MongoDB obtained
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2022 23:25:35] "POST /category HTTP/1.1" 200 -
+INFO:root:Flask App run Successfully
+INFO:root:Flask app setup completed
+INFO:root:Initialization of 'ScraperWebApplication' object completed
+INFO:root:the api for accessing the ineuron courses information completed
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Information from Collection(Database(MongoClient(host=['clusterineuron-shard-00-00.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-01.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject'), 'CourseSpecialization') collection in Database(MongoClient(host=['clusterineuron-shard-00-00.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-01.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject') database in MongoDB obtained
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2022 00:02:43] "GET /specializations HTTP/1.1" 200 -
+INFO:root:Flask App run Successfully
+INFO:root:Flask app setup completed
+INFO:root:Flask app setup completed
+ERROR:root:The DNS operation timed out after 20.01003623008728 seconds
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Flask App run Successfully
+ERROR:root:The DNS operation timed out after 20.00635552406311 seconds
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2022 06:26:01] "GET /specializations HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2022 06:26:12] "POST /category HTTP/1.1" 404 -
+INFO:root:Flask App run Successfully
+INFO:root:Flask app setup completed
+INFO:root:Initialization of 'ScraperWebApplication' object completed
+INFO:root:the api for accessing the ineuron courses information completed
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Information from Collection(Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject'), 'CourseInfo') collection in Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject') database in MongoDB obtained
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2022 06:26:44] "POST /category HTTP/1.1" 200 -
+INFO:root:Information from Collection(Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject'), 'CourseSpecialization') collection in Database(MongoClient(host=['clusterineuron-shard-00-01.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-02.xxvwt.mongodb.net:27017', 'clusterineuron-shard-00-00.xxvwt.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-l4u9ue-shard-0', ssl=True), 'WebScraperProject') database in MongoDB obtained
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2022 06:26:50] "GET /specializations HTTP/1.1" 200 -
+INFO:root:Flask App run Successfully
